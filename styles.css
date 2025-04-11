@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -303,7 +304,8 @@ nav {
 .social-links {
     display: flex;
     gap: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .social-links a {
@@ -344,7 +346,7 @@ footer {
     }
 
     .section {
-        scroll-margin-top: 250px;
+        scroll-margin-top: 300px;
     }
 
     .about-content {
